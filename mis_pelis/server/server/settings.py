@@ -147,3 +147,6 @@ INSTALLED_APPS = [
  # Django custom apps
  'authentication',
 ]
+
+# Custom user model
+AUTH_USER_MODEL = "authentication.CustomUser"   
