@@ -10,3 +10,10 @@ django = "*"
 
 [requires]
 python_version = "3.10"
+
+[scripts]
+server = "python manage.py runserver"
+migrate = "python manage.py migrate"
+startapp = "python manage.py startapp"
+makemigrations = "python manage.py makemigrations"
+createsuperuser = "python manage.py createsuperuser"
